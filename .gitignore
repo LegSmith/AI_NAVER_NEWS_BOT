@@ -1,0 +1,39 @@
+# ===== Secrets / 환경변수 =====
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 가상환경
+.venv/
+venv/
+env/
+ENV/
+
+# ===== 데이터 / 로그 =====
+news_history.db
+*.db
+*.sqlite
+*.sqlite3
+logs/
+*.log
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
